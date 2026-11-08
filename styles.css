@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
 *{
     font-family: "Roboto";
 }
 
+body{
+    margin:0px;
+}
 /* HEADER STYLING */
 .header{
     display:flex;
@@ -144,7 +148,7 @@ button.hero-button{
 /* START OF QUOTE SECTION STYLING */
 
 .quote-section{
-    height: 300px;
+    height: 360px;
     background: #F4EDEA;
     
     display:flex;
@@ -167,4 +171,61 @@ button.hero-button{
 .quotee{
     font-weight: 600;
     text-align: end;
+}
+
+/* END OF QUOTE SECTION STYLING */
+
+
+/* START OF FOOTER STYLING */
+.footer-section{
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cta-container{
+    background-color: #12263a;
+    width: 1200px;
+    height: 120px;
+    border-radius: 24px;
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-header{
+    color:  #F4EDEA;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cta-subtxt{
+    color:#c4bdba;
+}
+
+button.cta-button{
+    padding: 12px 24px;;
+   width:140px;
+   border: 2px solid #F4EDEA;
+   border-radius: 20px;
+
+   background-color: #12263a;
+   font-weight: 400;
+   color:#F4EDEA;
+   
+}
+
+
+.copyright{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #a2aebb;
+    color: #e8ebf7;
+
+
 }
