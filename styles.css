@@ -137,3 +137,34 @@ button.hero-button{
     font-size: 1.125rem;
     color: #1F2937;
 }
+
+/* END OF INFO SECTION STYLING */
+
+
+/* START OF QUOTE SECTION STYLING */
+
+.quote-section{
+    height: 300px;
+    background: #F4EDEA;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quote-container{
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.quote{
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quotee{
+    font-weight: 600;
+    text-align: end;
+}
